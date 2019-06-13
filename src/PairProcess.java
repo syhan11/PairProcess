@@ -29,11 +29,11 @@ public class PairProcess {
         avg = sum / 2.0;
 
         System.out.printf("Sum of %d and %d is %,d", num1, num2, sum);
-        if (sum > 200) {
+        if (sum > 200)
             System.out.printf("*");
-            if (sum < 1000)
+
+        if (sum < 1000)
                 System.out.printf("~");
-        }
 
         System.out.printf ("\n");
 
